@@ -1,0 +1,55 @@
+/* YouTube Brand Color */
+:root {
+  --yt-brand-red: #ff0000;
+  --yt-brand-red-hover: #cc0000;
+  --yt-white: #ffffff;
+  --yt-black: #000000;
+}
+
+/* YouTube Light Theme */
+:root, [data-theme="light"] {
+  --yt-spec-base-background: #ffffff;
+  --yt-spec-raised-background: #ffffff;
+  --yt-spec-menu-background: #ffffff;
+  --yt-spec-additive-background: #f2f2f2;
+  --yt-spec-chip-background: rgba(0, 0, 0, 0.05);
+
+  --yt-spec-text-primary: #0f0f0f;
+  --yt-spec-text-secondary: #606060;
+  --yt-spec-text-disabled: #909090;
+
+  --yt-spec-call-to-action: #065fd4;
+  --yt-spec-call-to-action-inverse: #ffffff;
+
+  --yt-spec-10-percent-layer: rgba(0, 0, 0, 0.1);
+  --yt-spec-border-subtle: #e5e5e5;
+  --yt-spec-hover-overlay: rgba(0, 0, 0, 0.05);
+
+  --yt-status-success: #107c10;
+  --yt-status-warning: #b25000;
+  --yt-status-error: #cc181e;
+}
+
+/* YouTube Dark Theme (Default) */
+[data-theme="dark"] {
+  --yt-spec-base-background: #0f0f0f;
+  --yt-spec-raised-background: #212121;
+  --yt-spec-menu-background: #282828;
+  --yt-spec-additive-background: #272727;
+  --yt-spec-chip-background: rgba(255, 255, 255, 0.1);
+
+  --yt-spec-text-primary: #f1f1f1;
+  --yt-spec-text-secondary: #aaaaaa;
+  --yt-spec-text-disabled: #717171;
+
+  --yt-spec-call-to-action: #3ea6ff;
+  --yt-spec-call-to-action-inverse: #0f0f0f;
+
+  --yt-spec-10-percent-layer: rgba(255, 255, 255, 0.1);
+  --yt-spec-border-subtle: #3f3f3f;
+  --yt-spec-hover-overlay: rgba(255, 255, 255, 0.1);
+
+  --yt-status-success: #2ba640;
+  --yt-status-warning: #f59e0b;
+  --yt-status-error: #ff4e45;
+}

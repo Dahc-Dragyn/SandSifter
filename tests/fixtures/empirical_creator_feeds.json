@@ -1,0 +1,352 @@
+[
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_001",
+    "title": "Why Python is slow for loops",
+    "views": 10500,
+    "likes": 620,
+    "comments": 45,
+    "shares": 18,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-01-05T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_002",
+    "title": "5 Jupyter notebook shortcuts you need",
+    "views": 11200,
+    "likes": 710,
+    "comments": 52,
+    "shares": 34,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-01-08T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_003",
+    "title": "SQL window functions explained in 30 seconds",
+    "views": 9800,
+    "likes": 580,
+    "comments": 39,
+    "shares": 22,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-01-11T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_004",
+    "title": "How to structure your PyTorch models cleanly",
+    "views": 12500,
+    "likes": 890,
+    "comments": 68,
+    "shares": 45,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-01-14T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_005",
+    "title": "Stop using pandas for large datasets. You are destroying your RAM.",
+    "views": 485000,
+    "likes": 42000,
+    "comments": 3100,
+    "shares": 8900,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-01-18T14:30:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_006",
+    "title": "DuckDB vs Polars benchmark on 50GB file",
+    "views": 118000,
+    "likes": 9800,
+    "comments": 820,
+    "shares": 1400,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-01-22T16:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_007",
+    "title": "Setting up UV for lightning fast Python envs",
+    "views": 10200,
+    "likes": 650,
+    "comments": 41,
+    "shares": 29,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-01-25T10:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_008",
+    "title": "Why NumPy vectorized ops outperform standard lists",
+    "views": 10900,
+    "likes": 690,
+    "comments": 48,
+    "shares": 25,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-01-28T10:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_009",
+    "title": "The biggest lie in data science tutorials",
+    "views": 78000,
+    "likes": 6200,
+    "comments": 590,
+    "shares": 980,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-01T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_010",
+    "title": "Stop writing nested SQL queries. Use CTEs instead.",
+    "views": 62000,
+    "likes": 4800,
+    "comments": 390,
+    "shares": 720,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-04T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_011",
+    "title": "Clean architecture in FastAPI projects",
+    "views": 11500,
+    "likes": 740,
+    "comments": 55,
+    "shares": 38,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-07T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_012",
+    "title": "Never store API keys in .env files during production",
+    "views": 13200,
+    "likes": 910,
+    "comments": 82,
+    "shares": 65,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-10T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_013",
+    "title": "3 VS Code extensions every ML engineer needs",
+    "views": 9400,
+    "likes": 560,
+    "comments": 34,
+    "shares": 21,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-13T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_014",
+    "title": "How to profile memory leaks in Python",
+    "views": 10800,
+    "likes": 680,
+    "comments": 47,
+    "shares": 31,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-16T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_015",
+    "title": "Nobody is talking about this Polars lazy API feature that saves hours",
+    "views": 240000,
+    "likes": 19500,
+    "comments": 1420,
+    "shares": 3800,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-20T15:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_016",
+    "title": "Docker tips for data science containers",
+    "views": 11100,
+    "likes": 720,
+    "comments": 51,
+    "shares": 33,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-23T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_017",
+    "title": "Sponsored Tool Review - AI Query Optimizer",
+    "views": 95000,
+    "likes": 420,
+    "comments": 35,
+    "shares": 12,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-26T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_018",
+    "title": "Git rebase vs merge for analytics teams",
+    "views": 10400,
+    "likes": 640,
+    "comments": 43,
+    "shares": 26,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-03-01T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_019",
+    "title": "Why XGBoost still beats deep learning for tabular data",
+    "views": 44000,
+    "likes": 3400,
+    "comments": 290,
+    "shares": 520,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-03-04T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/ds_020",
+    "title": "How to write unit tests for PySpark pipelines",
+    "views": 11800,
+    "likes": 790,
+    "comments": 58,
+    "shares": 40,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-03-07T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_001",
+    "title": "My daily writing routine as a fantasy author",
+    "views": 3800,
+    "likes": 310,
+    "comments": 28,
+    "shares": 14,
+    "channel": "@creator_studio",
+    "published_at": "2026-01-06T14:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_002",
+    "title": "How I organize character sheets in Scrivener",
+    "views": 4200,
+    "likes": 350,
+    "comments": 32,
+    "shares": 19,
+    "channel": "@creator_studio",
+    "published_at": "2026-01-09T14:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_003",
+    "title": "The biggest plot hole authors ignore in chapter 1",
+    "views": 46000,
+    "likes": 4800,
+    "comments": 410,
+    "shares": 890,
+    "channel": "@creator_studio",
+    "published_at": "2026-01-13T16:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_004",
+    "title": "Stop introducing characters through a mirror reflection",
+    "views": 185000,
+    "likes": 18200,
+    "comments": 1350,
+    "shares": 4200,
+    "channel": "@creator_studio",
+    "published_at": "2026-01-17T18:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_005",
+    "title": "My favorite notebooks for worldbuilding",
+    "views": 3900,
+    "likes": 290,
+    "comments": 24,
+    "shares": 11,
+    "channel": "@creator_studio",
+    "published_at": "2026-01-21T14:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_006",
+    "title": "Why your magic system feels boring to readers",
+    "views": 68000,
+    "likes": 6400,
+    "comments": 580,
+    "shares": 1200,
+    "channel": "@creator_studio",
+    "published_at": "2026-01-26T17:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_007",
+    "title": "Editing chapter 12: live reaction to my first draft",
+    "views": 4100,
+    "likes": 340,
+    "comments": 29,
+    "shares": 16,
+    "channel": "@creator_studio",
+    "published_at": "2026-01-30T14:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_008",
+    "title": "How to write dialogue that crackles with tension",
+    "views": 52000,
+    "likes": 5100,
+    "comments": 430,
+    "shares": 950,
+    "channel": "@creator_studio",
+    "published_at": "2026-02-03T16:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_009",
+    "title": "Desk setup tour for full-time novelists",
+    "views": 3700,
+    "likes": 280,
+    "comments": 21,
+    "shares": 10,
+    "channel": "@creator_studio",
+    "published_at": "2026-02-06T14:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_010",
+    "title": "The secret to villains readers secretly fall in love with",
+    "views": 94000,
+    "likes": 9800,
+    "comments": 890,
+    "shares": 2100,
+    "channel": "@creator_studio",
+    "published_at": "2026-02-11T18:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_011",
+    "title": "Self-publishing checklist for first-time authors",
+    "views": 4400,
+    "likes": 380,
+    "comments": 35,
+    "shares": 22,
+    "channel": "@creator_studio",
+    "published_at": "2026-02-15T14:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_012",
+    "title": "How to outline a 3-book series without getting stuck",
+    "views": 41000,
+    "likes": 3900,
+    "comments": 320,
+    "shares": 680,
+    "channel": "@creator_studio",
+    "published_at": "2026-02-19T16:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_013",
+    "title": "Promoted Reading App Ad - Boosted Post",
+    "views": 65000,
+    "likes": 310,
+    "comments": 18,
+    "shares": 5,
+    "channel": "@creator_studio",
+    "published_at": "2026-02-24T14:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_014",
+    "title": "What to do when writer's block hits halfway through act 2",
+    "views": 4300,
+    "likes": 360,
+    "comments": 30,
+    "shares": 18,
+    "channel": "@creator_studio",
+    "published_at": "2026-02-28T14:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/mb_015",
+    "title": "Never end your chapter on a summary. End it on an unanswered question.",
+    "views": 142000,
+    "likes": 14800,
+    "comments": 1120,
+    "shares": 3400,
+    "channel": "@creator_studio",
+    "published_at": "2026-03-05T18:00:00Z"
+  }
+]

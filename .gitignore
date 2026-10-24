@@ -1,0 +1,59 @@
+# Rust build artifacts
+/target
+**/*.rs.bk
+
+# Sensitive environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.pfx
+
+# SQLite Databases & logs
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+
+# Python cache & ad-hoc scripts
+__pycache__/
+*.py[cod]
+*$py.class
+*.py
+
+# Shell & scratch scripts
+scripts/
+*.ps1
+*.sh
+*.bat
+
+# Ad-hoc JSON dumps & test outputs (preserve tests/fixtures)
+*.json
+!tests/fixtures/*.json
+
+# Sandsifter operational outputs & scratch directories
+output/
+scratch/
+recon/
+benchmarks/
+
+# Internal research and proprietary strategy docs (exclude from public repo)
+DOCUMENTS/
+
+# Exported NLE timelines from local tests
+*.edl
+*.fcpxml
+*.vtt
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandsifter Studio - Outlier Intelligence Dashboard</title>
+  <link rel="icon" type="image/svg+xml" href="/icon.svg">
+  <link rel="stylesheet" href="/theme.css">
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <a href="/" class="brand-section">
+      <div class="brand-logo-badge">
+        <span>▶</span> SANDSIFTER
+      </div>
+      <div class="brand-title">Studio</div>
+      <div class="brand-subtitle">v0.4.0 Live Daemon</div>
+    </a>
+
+    <!-- YouTube Chips Navigation -->
+    <nav class="app-nav">
+      <button class="nav-chip active" data-tab="audit">📊 Live Audit</button>
+      <button class="nav-chip" data-tab="watchlist">📈 Watchlist</button>
+      <button class="nav-chip" data-tab="hooks">🎣 Hook Machine</button>
+      <button class="nav-chip" data-tab="script">🎬 Shoot Sheet</button>
+      <button class="nav-chip" data-tab="status">⚙️ Daemon Health</button>
+    </nav>
+
+    <div class="header-controls">
+      <span class="daemon-status-dot" id="daemon-status-dot" title="Sandsifter Daemon: Checking..."></span>
+      <button class="theme-toggle-btn" id="theme-toggle-btn">☀️ Light</button>
+    </div>
+  </header>
+
+  <!-- Main Content Layout -->
+  <main class="app-main">
+
+    <!-- ─────────────────────────────────────────────────────────────────────────────
+         Tab 1: Telemetry & Live Video Audit
+    ───────────────────────────────────────────────────────────────────────────── -->
+    <section class="tab-pane active" id="tab-audit">
+      <div class="studio-card" style="margin-bottom: 24px;">
+        <h2>🎥 Video Telemetry & Brailsford Marginal Gains Audit</h2>
+        <p style="color: var(--yt-spec-text-secondary); font-size: 13px; margin-bottom: 16px;">
+          Analyze acoustic speech latency (RMS VAD), visual cutting cadence (ASL), true peak audio loudness (-14.0 LUFS), and audience retention cliffs.
+        </p>
+
+        <form id="audit-form" class="input-action-bar">
+          <input type="text" id="audit-url-input" placeholder="Paste YouTube Video URL or local path (e.g. C:\Videos\render.mp4)..." required>
+          <input type="file" id="local-video-file-picker" accept="video/mp4,video/quicktime,video/x-matroska,video/webm,video/avi,.mp4,.mov,.mkv,.webm,.avi" style="display: none;">
+          <button type="button" class="btn-secondary" id="browse-local-btn" title="Push to select a local video from your hard drive">📁 Select Local Video</button>
+          <button type="submit" class="btn-cta" id="audit-btn">⚡ Run Telemetry Audit</button>
+        </form>
+
+        <div style="display: flex; gap: 8px; align-items: center; font-size: 12px; color: var(--yt-spec-text-secondary); flex-wrap: wrap;">
+          <span>Quick Benchmark Targets:</span>
+          <button class="btn-secondary sample-url-btn" data-url="https://www.youtube.com/watch?v=AvZPW4N12D0">Alaskan Cod (Outdoor Tom)</button>
+          <button class="btn-secondary sample-url-btn" data-url="https://www.youtube.com/watch?v=WWtv4227D7I">Worst Boat (BOAT BUSTERS)</button>
+          <button class="btn-secondary sample-url-btn" data-url="https://www.youtube.com/watch?v=3Qf4ABaXmFM">Solo Bushcraft (4.47M Hit)</button>
+        </div>
+      </div>
+
+      <div id="audit-results">
+        <!-- Results injected dynamically -->
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────────────────────────
+         Tab 2: Outlier Intelligence Watchlist
+    ───────────────────────────────────────────────────────────────────────────── -->
+    <section class="tab-pane" id="tab-watchlist">
+      <div class="studio-card" style="margin-bottom: 24px;">
+        <h2>📈 Tracked Creator Cohorts & Outlier Velocity</h2>
+        <p style="color: var(--yt-spec-text-secondary); font-size: 13px; margin-bottom: 16px;">
+          Empirical baselines calculated from rolling median views and IQR winsorization.
+        </p>
+        <div class="table-container">
+          <table class="studio-table">
+            <thead>
+              <tr>
+                <th>Channel Name</th>
+                <th>Handle</th>
+                <th>Platform</th>
+                <th>Followers</th>
+                <th>Baseline Median Views</th>
+                <th>Last Crawled</th>
+              </tr>
+            </thead>
+            <tbody id="watchlist-table-body">
+              <!-- Watchlist injected dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────────────────────────
+         Tab 3: The Hook Machine (Kallaway Engine)
+    ───────────────────────────────────────────────────────────────────────────── -->
+    <section class="tab-pane" id="tab-hooks">
+      <div class="studio-card" style="margin-bottom: 24px;">
+        <h2>🎣 The Hook Machine (Kallaway Reverse-Engineering Engine)</h2>
+        <p style="color: var(--yt-spec-text-secondary); font-size: 13px; margin-bottom: 16px;">
+          Synthesize high-converting short-form video hooks with cognitive friction pairs and Reader Resonance multipliers.
+        </p>
+
+        <form id="hook-form" style="display: grid; grid-template-columns: 1fr 2fr auto; gap: 12px; align-items: flex-end;">
+          <div class="form-control" style="margin-bottom: 0;">
+            <label>Creator Handle</label>
+            <input type="text" id="hook-channel-input" value="@creator_studio" placeholder="@your_channel" required>
+          </div>
+          <div class="form-control" style="margin-bottom: 0;">
+            <label>Video Topic / Idea</label>
+            <input type="text" id="hook-topic-input" placeholder="e.g. Morally Gray Villains or Off-Grid Tiny House" required>
+          </div>
+          <button type="submit" class="btn-cta" style="height: 42px;">🎣 Synthesize Hooks</button>
+        </form>
+      </div>
+
+      <div id="hook-results">
+        <!-- Hooks injected dynamically -->
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────────────────────────
+         Tab 4: Pre-Production Shoot Sheet
+    ───────────────────────────────────────────────────────────────────────────── -->
+    <section class="tab-pane" id="tab-script">
+      <div class="studio-card" style="margin-bottom: 24px;">
+        <h2>🎬 1-Page Pre-Production Shoot Sheet & 4 Ps Hook Clock</h2>
+        <p style="color: var(--yt-spec-text-secondary); font-size: 13px; margin-bottom: 16px;">
+          Define your thumbnail shoot list and opening 10-second shot clock before rolling camera on set.
+        </p>
+
+        <form id="script-form" style="display: grid; grid-template-columns: 2fr 1fr 1fr auto; gap: 12px; align-items: flex-end;">
+          <div class="form-control" style="margin-bottom: 0;">
+            <label>Working Title</label>
+            <input type="text" id="script-title-input" placeholder="e.g. Building a Deep Woods Shelter with Hand Tools" required>
+          </div>
+          <div class="form-control" style="margin-bottom: 0;">
+            <label>Creator Handle</label>
+            <input type="text" id="script-creator-input" value="@creator_studio" placeholder="@your_channel">
+          </div>
+          <div class="form-control" style="margin-bottom: 0;">
+            <label>Duration Target</label>
+            <select id="script-duration-select">
+              <option value="36" selected>36 Seconds (High Retention Short)</option>
+              <option value="60">60 Seconds (Full Short / Reel)</option>
+              <option value="180">3 Minutes (Mid-Form Tutorial)</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-cta" style="height: 42px;">🎬 Generate Sheet</button>
+        </form>
+      </div>
+
+      <div id="script-results">
+        <!-- Shoot sheet injected dynamically -->
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────────────────────────────────────────
+         Tab 5: Daemon Health & Status
+    ───────────────────────────────────────────────────────────────────────────── -->
+    <section class="tab-pane" id="tab-status">
+      <div id="status-metrics">
+        <!-- Injected dynamically -->
+      </div>
+    </section>
+
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

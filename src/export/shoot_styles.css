@@ -1,0 +1,390 @@
+/* Sandsifter 1-Page Pre-Production Shoot Sheet Stylesheet */
+/* Clean, high-contrast, designed for print/PDF on 8.5x11 page */
+
+:root {
+  --bg-page: #f8fafc;
+  --bg-card: #ffffff;
+  --border-card: #cbd5e1;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --accent-blue: #0284c7;
+  --accent-navy: #1e293b;
+  --accent-highlight: #0369a1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.35;
+  padding: 16px;
+}
+
+.sheet-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Header */
+.sheet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 2px solid var(--accent-navy);
+  padding-bottom: 12px;
+  margin-bottom: 14px;
+}
+
+.badge-doc {
+  display: inline-block;
+  background: var(--accent-navy);
+  color: #ffffff;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-bottom: 4px;
+}
+
+.sheet-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--accent-navy);
+  line-height: 1.2;
+}
+
+.sheet-meta {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.btn-print {
+  background: var(--accent-navy);
+  color: #ffffff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Sections */
+.sheet-section {
+  margin-bottom: 14px;
+}
+
+.section-title-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f1f5f9;
+  border-left: 4px solid var(--accent-blue);
+  padding: 4px 10px;
+  margin-bottom: 8px;
+}
+
+.section-number {
+  background: var(--accent-blue);
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 800;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.section-title-bar h2 {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: var(--accent-navy);
+}
+
+/* Hero Moment Box */
+.hero-moment-box {
+  background: #f8fafc;
+  border: 1px dashed var(--border-card);
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+}
+
+.moment-tag {
+  font-size: 9px;
+  font-weight: 800;
+  color: var(--accent-blue);
+  letter-spacing: 0.05em;
+}
+
+.moment-quote {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent-navy);
+  font-style: italic;
+  margin-top: 2px;
+}
+
+/* Concepts Grid */
+.concepts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.concept-card {
+  border: 1px solid var(--border-card);
+  border-radius: 4px;
+  padding: 8px 10px;
+  background: #ffffff;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.on-set-check {
+  width: 14px;
+  height: 14px;
+  accent-color: var(--accent-blue);
+  cursor: pointer;
+}
+
+.concept-badge {
+  font-size: 9px;
+  font-weight: 800;
+  color: var(--accent-navy);
+}
+
+.concept-name {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent-navy);
+  margin: 2px 0 4px 20px;
+}
+
+.concept-row {
+  font-size: 10px;
+  margin-bottom: 2px;
+  margin-left: 20px;
+}
+
+.ck {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.cv {
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.highlight-text {
+  color: var(--accent-highlight);
+}
+
+.concept-checklist {
+  font-size: 10px;
+  background: #f8fafc;
+  border-radius: 3px;
+  padding: 4px 6px;
+  margin-top: 4px;
+  margin-left: 20px;
+  color: #334155;
+  border-left: 2px solid var(--border-card);
+}
+
+/* Shot Clock */
+.shot-clock-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.shot-clock-step {
+  border: 1px solid var(--border-card);
+  border-radius: 4px;
+  padding: 6px 8px;
+  background: #ffffff;
+}
+
+.step-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.step-name {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.step-tc code {
+  font-size: 9px;
+  background: #f1f5f9;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+.step-goal {
+  font-size: 9px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+
+.step-dialogue {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent-navy);
+  line-height: 1.25;
+}
+
+/* Beats Table */
+.opening-beats-table-wrap {
+  border: 1px solid var(--border-card);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.beats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 10px;
+}
+
+.beats-table th {
+  background: #f1f5f9;
+  text-align: left;
+  padding: 4px 8px;
+  font-size: 8px;
+  font-weight: 800;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-card);
+}
+
+.beats-table td {
+  padding: 4px 8px;
+  border-bottom: 1px solid #e2e8f0;
+  vertical-align: top;
+}
+
+.role-tag {
+  font-weight: 700;
+  font-size: 9px;
+  color: var(--accent-blue);
+}
+
+.dialogue-cell {
+  font-weight: 600;
+  color: var(--text-main);
+  max-width: 250px;
+}
+
+.wpm-cell {
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.visual-cell {
+  color: #475569;
+  font-style: italic;
+}
+
+/* Criteria List */
+.criteria-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.criteria-item {
+  border: 1px solid var(--border-card);
+  border-radius: 4px;
+  padding: 6px 10px;
+  background: #ffffff;
+}
+
+.crit-number {
+  font-size: 9px;
+  font-weight: 800;
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 2px;
+  color: var(--accent-navy);
+}
+
+.crit-text {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-main);
+  flex: 1;
+}
+
+.crit-beat {
+  font-size: 9px;
+  color: var(--accent-blue);
+  font-weight: 700;
+}
+
+/* Footer */
+.sheet-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--border-card);
+  padding-top: 8px;
+  margin-top: 10px;
+  font-size: 9px;
+  color: var(--text-muted);
+}
+
+/* Print Rules - Compact 1-Page Letter Layout */
+@page {
+  size: letter portrait;
+  margin: 0.35in;
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    padding: 0 !important;
+    font-size: 9.5px !important;
+  }
+  .sheet-container {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .sheet-section {
+    page-break-inside: avoid;
+    margin-bottom: 10px !important;
+  }
+}

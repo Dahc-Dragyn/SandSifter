@@ -1,0 +1,44 @@
+[package]
+name = "sandsifter"
+version = "0.1.0"
+edition = "2021"
+description = "High-performance viral short-form video outlier intelligence engine & MCP bridge written in 100% native Rust."
+authors = ["Dahc-Dragyn"]
+
+[dependencies]
+# Async Runtime
+tokio = { version = "1.40", features = ["full"] }
+
+# Serialization & JSON
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Networking & HTTP
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls", "stream"] }
+bytes = "1.10"
+futures-util = "0.3"
+base64 = "0.22"
+
+# Tracing & Observability
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+
+# CLI Parsing
+clap = { version = "4.5", features = ["derive"] }
+
+# HTTP Gateway & Remote MCP (SSE)
+axum = "0.7"
+dotenvy = "0.15"
+
+# Optional Local Vector / Storage Layer
+rusqlite = { version = "0.32", features = ["bundled"] }
+comfy-table = { version = "8.0", features = ["custom_styling"] }
+tower-http = { version = "0.7.1", features = ["cors"] }
+notify = "8.2.0"
+
+# Embedded Web Frontend (PushFrame Pattern)
+rust-embed = { version = "8.5", features = ["interpolate-folder-path", "mime-guess"] }
+mime_guess = "2.0"
+
+[dev-dependencies]
+tempfile = "3.12"

@@ -1,0 +1,72 @@
+[
+  {
+    "video_url": "https://www.youtube.com/shorts/sample_001",
+    "title": "Why Python is slow for loops",
+    "views": 10500,
+    "likes": 620,
+    "comments": 45,
+    "shares": 18,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-10T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/sample_002",
+    "title": "5 Jupyter notebook shortcuts you need",
+    "views": 11200,
+    "likes": 710,
+    "comments": 52,
+    "shares": 34,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-12T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/sample_003",
+    "title": "SQL window functions explained in 30 seconds",
+    "views": 9800,
+    "likes": 580,
+    "comments": 39,
+    "shares": 22,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-15T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/sample_004",
+    "title": "How to structure your PyTorch models cleanly",
+    "views": 12500,
+    "likes": 890,
+    "comments": 68,
+    "shares": 45,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-18T12:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/sample_005",
+    "title": "Stop using pandas for large datasets. You are destroying your RAM.",
+    "views": 485000,
+    "likes": 42000,
+    "comments": 3100,
+    "shares": 8900,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-22T14:30:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/sample_006",
+    "title": "DuckDB vs Polars benchmark on 50GB file",
+    "views": 118000,
+    "likes": 9800,
+    "comments": 820,
+    "shares": 1400,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-25T16:00:00Z"
+  },
+  {
+    "video_url": "https://www.youtube.com/shorts/sample_007",
+    "title": "Setting up UV for lightning fast Python envs",
+    "views": 10200,
+    "likes": 650,
+    "comments": 41,
+    "shares": 29,
+    "channel": "@datasciencedaily",
+    "published_at": "2026-02-28T10:00:00Z"
+  }
+]
